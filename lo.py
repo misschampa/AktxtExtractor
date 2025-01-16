@@ -70,9 +70,9 @@ def pull_run(work, cmds):
 	        print(result) 
 bot = Client(
   "CW",
-  bot_token= "6917084113:AAFOK37UIoEQLtY2HYu5UeF77cIF4BfGnwk",
-  api_id= 27097807 ,
-  api_hash= "9fd790a9cb1f639c921d941621d2959d" 
+  bot_token= "7350085099:AAHQ6uYn3uFPpf0o4p_BrDrf9MM4Fz41iSU",
+  api_id= 23900056 ,
+  api_hash= "db7e21e638bc2359907814f4ed8b48a8" 
 )
 
 @bot.on_message(filters.command(["down"]) & ~filters.edited)
@@ -93,8 +93,8 @@ async def account_login(bot: Client, m: Message):
 
     info = {
   "api_key": "kdc123",
-  "mobilenumber": "7618089571",
-  "password": "yvikash880"
+  "mobilenumber": "9336064641",
+  "password": "12345678"
   }
     headers = {
     'Content-type': 'application/json',
@@ -105,7 +105,7 @@ async def account_login(bot: Client, m: Message):
     'User-Agent': 'Apache-HttpClient/UNAVAILABLE (java 1.4)',
 }
 
-    data = '{api_key:kdc123,mobilenumber:7618089571,password:yvikash880}'
+    data = '{api_key:kdc123,mobilenumber:9336064641,password:12345678}'
 
     response = requests.post('https://ignitedminds.live/android/User/login_user', headers=headers, data=data)
     print(response.content)
@@ -132,7 +132,7 @@ async def account_login(bot: Client, m: Message):
     'Connection': 'Keep-Alive',
     'User-Agent': 'Apache-HttpClient/UNAVAILABLE (java 1.4)',
 }
-    data = '{api_key:kdc123,mobilenumber:7618089571,password:yvikash880}'
+    data = '{api_key:kdc123,mobilenumber:9336064641,password:12345678}'
 
     #response = requests.post('https://ignitedminds.live/android/User/login_user', headers=headers, data=data)
 
