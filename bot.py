@@ -2,9 +2,9 @@
 from pyrogram import Client, filters
 from pyrogram.types import Message
 
-API_ID = "YOUR_API_ID"
-API_HASH = "YOUR_API_HASH"
-BOT_TOKEN = "YOUR_BOT_TOKEN"
+API_ID = "2359907814"
+API_HASH = "db7e21e638bc2359907814f4ed8b48a8"
+BOT_TOKEN = "7350085099:AAHQ6uYn3uFPpf0o4p_BrDrf9MM4Fz41iSU"
 
 app = Client("AktxtExtractor", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
 
